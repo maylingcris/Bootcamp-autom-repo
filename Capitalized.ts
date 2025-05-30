@@ -4,4 +4,8 @@ const capitalizedWords: string[] = words.map(str => str.charAt(0).toUpperCase() 
 
 console.log(capitalizedWords);
 
-//new change
+/*
+function capitalizeArray (list: string[]): string[] {
+    return list.map(item => item.charAt(0).toUpperCase() + item.slice(1));
+}
+*/
